@@ -49,7 +49,7 @@ A complete identity and menu system for a coffee franchise, designed as a system
 ├── screens/           the menu boards as offline HTML — open in any browser
 ├── previews/          stills of every board and every product slide
 ├── video/             60-second loops of both screens (MP4, 1080p)
-├── menu/              price list (Excel) — per-board sheets, counter items, till list, Simpra setup
+├── menu/              price list (Excel) — per-board sheets, counter items, till list, Simpra setup; A3 window price list (PDF)
 ├── labels/            7 × 4 cm price labels and 7 × 12 cm tea labels — print-ready PDF and PNG
 └── assets/readme/     images for this page
 ```

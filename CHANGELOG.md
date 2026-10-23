@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.3 — 23 Oct 2026
+
+- **Window price list** (A3, one page) for the door: every product, size and price in three columns, with logo, size legend, VAT note and update date. Built from the price-list workbook.
+
 ## v5.2 — 23 Oct 2026
 
 - Price labels resized to **7 × 4 cm** (A4: 12 per page).
