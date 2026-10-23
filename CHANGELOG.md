@@ -1,5 +1,10 @@
 # Changelog
 
+## v5.2 — 23 Oct 2026
+
+- Price labels resized to **7 × 4 cm** (A4: 12 per page).
+- New **7 × 12 cm tea labels** for Papatya, Ihlamur, Kış Çayı, Yeşil Çay, Hibiskus and Nane Limon, with vector ingredient illustrations.
+
 ## v5.1 — 23 Oct 2026
 
 - **Cookielaton** (chocolate cookie, 200 TL) added to the dessert board and labels. Blueberry is now the forest-fruit cake; Berry World the forest-fruit cheesecake.

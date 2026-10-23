@@ -79,4 +79,4 @@ Your Favorite + Espresso · Golden + Lotus Latte · Coconut + Türk Kahvesi · C
 - Prices are in TL, VAT included; every price on screen shows `TL`.
 - The screens and [`menu/Ciao_Fiyat_Listesi.xlsx`](../menu/Ciao_Fiyat_Listesi.xlsx) carry exactly the same names, marks and prices.
 - POS-only items (Türk Çayı in carton cups, the counter items above) live in the workbook but not on screen.
-- Every product that is sold from the display case or the counter has an 8 × 5 cm price label — see [12 · Price labels](12-labels.md).
+- Every product that is sold from the display case or the counter has a 7 × 4 cm price label, and each herbal tea a 7 × 12 cm jar label — see [12 · Labels](12-labels.md).
