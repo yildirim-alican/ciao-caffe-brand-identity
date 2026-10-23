@@ -22,7 +22,7 @@ Long names shrink automatically so nothing touches the edge. Each dessert has it
 |---|---|
 | [`labels/Ciao_Etiketler_A4_7x4cm.pdf`](../labels/Ciao_Etiketler_A4_7x4cm.pdf) | A4, 12 labels per page (2 × 6), crop marks outside a 2 mm bleed. Print at **100 % / actual size**, cut on the marks. |
 | [`labels/Ciao_Etiketler_Tekli_7x4cm.pdf`](../labels/Ciao_Etiketler_Tekli_7x4cm.pdf) | for a print shop: one label per 70 × 40 mm page |
-| [`labels/png/`](../labels/png) | one PNG per label at 300 dpi (827 × 472 px) |
+| [`labels/png/`](../labels/png) | one PNG per label at 300 dpi (≈ 828 × 475 px) |
 
 **25 labels**
 
