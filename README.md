@@ -69,21 +69,30 @@ A complete identity and menu system for a coffee franchise, designed as a system
 
 ## Gallery
 
-| Screen 1 · hot | Screen 2 · cold | Desserts |
-|---|---|---|
-| ![](previews/Ekran1_b_icecek_1.png) | ![](previews/Ekran2_b_icecek_1.png) | ![](previews/Ekran2_c_tatli.png) |
-| **Hot list** | **Cold list** | **Intro · hot / cold** |
-| ![](previews/03_Sicak_Liste.png) | ![](previews/04_Soguk_Liste.png) | ![](previews/Ekran1_a_intro.png) ![](previews/Ekran2_a_intro.png) |
+### Screens
 
-| Hot drinks | | | |
-|---|---|---|---|
-| ![](previews/06_Sicak_Gorselli_1.png) | ![](previews/06_Sicak_Gorselli_2.png) | ![](previews/06_Sicak_Gorselli_3.png) | ![](previews/06_Sicak_Gorselli_4.png) |
-| ![](previews/06_Sicak_Gorselli_5.png) | ![](previews/06_Sicak_Gorselli_6.png) | ![](previews/06_Sicak_Gorselli_7.png) | |
+<table>
+<tr><td width="50%" align="center"><img src="previews/Ekran1_b_icecek_1.png" width="100%" alt="Screen 1 · hot loop"><br><sub>Screen 1 · hot loop</sub></td><td width="50%" align="center"><img src="previews/Ekran2_b_icecek_1.png" width="100%" alt="Screen 2 · cold loop"><br><sub>Screen 2 · cold loop</sub></td></tr>
+<tr><td width="50%" align="center"><img src="previews/03_Sicak_Liste.png" width="100%" alt="Hot list board"><br><sub>Hot list board</sub></td><td width="50%" align="center"><img src="previews/04_Soguk_Liste.png" width="100%" alt="Cold list board"><br><sub>Cold list board</sub></td></tr>
+<tr><td width="50%" align="center"><img src="previews/Ekran2_c_tatli.png" width="100%" alt="Desserts & snacks"><br><sub>Desserts & snacks</sub></td><td width="50%" align="center"><img src="previews/06_Sicak_Gorselli_5.png" width="100%" alt="Hot board · image panel"><br><sub>Hot board · image panel</sub></td></tr>
+<tr><td width="50%" align="center"><img src="previews/Ekran1_a_intro.png" width="100%" alt="Intro · hot"><br><sub>Intro · hot</sub></td><td width="50%" align="center"><img src="previews/Ekran2_a_intro.png" width="100%" alt="Intro · cold"><br><sub>Intro · cold</sub></td></tr>
+</table>
 
-| Cold drinks | | | |
-|---|---|---|---|
-| ![](previews/07_Soguk_Gorselli_1.png) | ![](previews/07_Soguk_Gorselli_2.png) | ![](previews/07_Soguk_Gorselli_3.png) | ![](previews/07_Soguk_Gorselli_4.png) |
-| ![](previews/07_Soguk_Gorselli_5.png) | | | |
+### Hot drinks
+
+Each featured drink pours, fills and is served in its own short animation; these are the final frames.
+
+<table>
+<tr><td width="25%" align="center"><img src="previews/drinks/hot-01-tarantino.png" width="100%" alt="Tarantino"><br><sub>Tarantino</sub></td><td width="25%" align="center"><img src="previews/drinks/hot-02-pistachio-white-hot.png" width="100%" alt="Pistachio White Hot"><br><sub>Pistachio White Hot</sub></td><td width="25%" align="center"><img src="previews/drinks/hot-03-lotus-latte.png" width="100%" alt="Lotus Latte"><br><sub>Lotus Latte</sub></td><td width="25%" align="center"><img src="previews/drinks/hot-04-damla-sakizli-turk-kahvesi.png" width="100%" alt="Damla Sakızlı Türk Kahvesi"><br><sub>Damla Sakızlı Türk Kahvesi</sub></td></tr>
+<tr><td width="25%" align="center"><img src="previews/drinks/hot-05-ruby.png" width="100%" alt="Ruby"><br><sub>Ruby</sub></td><td width="25%" align="center"><img src="previews/drinks/hot-06-cincirella.png" width="100%" alt="Cincirella"><br><sub>Cincirella</sub></td><td width="25%" align="center"><img src="previews/drinks/hot-07-spanish-latte.png" width="100%" alt="Spanish Latte"><br><sub>Spanish Latte</sub></td><td width="25%"></td></tr>
+</table>
+
+### Cold drinks
+
+<table>
+<tr><td width="25%" align="center"><img src="previews/drinks/cold-01-kori-kohi.png" width="100%" alt="Kori Kohi"><br><sub>Kori Kohi</sub></td><td width="25%" align="center"><img src="previews/drinks/cold-02-tarantino-iced.png" width="100%" alt="Tarantino"><br><sub>Tarantino</sub></td><td width="25%" align="center"><img src="previews/drinks/cold-03-iced-spanish-latte.png" width="100%" alt="Iced Spanish Latte"><br><sub>Iced Spanish Latte</sub></td><td width="25%" align="center"><img src="previews/drinks/cold-04-taro-milk-boba-tea.png" width="100%" alt="Taro Milk Boba Tea"><br><sub>Taro Milk Boba Tea</sub></td></tr>
+<tr><td width="25%" align="center"><img src="previews/drinks/cold-05-berry-hibiscus-cooler.png" width="100%" alt="Berry Hibiscus Cooler"><br><sub>Berry Hibiscus Cooler</sub></td><td width="25%"></td><td width="25%"></td><td width="25%"></td></tr>
+</table>
 
 ## View it
 

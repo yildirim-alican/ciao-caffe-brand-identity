@@ -12,6 +12,7 @@ What each store receives, and how it runs.
 | Intros | `screens/08_Intro_Sicak.html`, `screens/09_Intro_Soguk.html` | brand intro on its own (events, social) |
 | **Video fallback** | `video/*.mp4` — H.264, 1920×1080, 30 fps, 60 s | TVs without a browser (USB, repeat mode) |
 | Stills | `previews/*.png` — 1920×1080 | approvals, print, social media |
+| Drink panels | `previews/drinks/*.png` — 620×780 | product visuals on their own (social, print, web) |
 | **Price list** | `menu/Ciao_Fiyat_Listesi.xlsx` | head office and till |
 
 ## Running the screens
