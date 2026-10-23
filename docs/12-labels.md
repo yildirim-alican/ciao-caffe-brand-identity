@@ -26,14 +26,15 @@ Long names shrink automatically so nothing touches the edge. Each dessert has it
 | [`labels/Ciao_Etiketler_Tekli_8x5cm.pdf`](../labels/Ciao_Etiketler_Tekli_8x5cm.pdf) | **for a print shop:** one label per 80 × 50 mm page |
 | [`labels/png/`](../labels/png) | one PNG per label at 300 dpi (947 × 591 px) |
 
-## Labels (23)
+## Labels (25)
 
 | Group | Labels |
 |---|---|
 | Pasta & kek | Blush 270 · Berry World 270 · Blueberry 300 · Italian Mood 270 · Golden 320 · Coconut 240 · Chocolate Marble 250 · Bunny House 250 |
-| Tatlılar | Your Favorite 300 · Black Movie 200 · Choco Puff 270 · Cloud 9 170 |
+| Tatlılar | Your Favorite 300 · Black Movie 200 · Choco Puff 270 · Cookielaton 200 · Cloud 9 170 |
 | Sandviçler | Vegan Sandviç 200 · Karışık Sandviç 250 |
 | Kasa önü | Susamlı Tuzlu Mini Cookie 190 · Ay Çekirdekli Mini Kurabiye 190 · Double Chocolate Mini Cookies 210 · Triple Chocolate Mini Cookies 210 |
 | Bar önü | Su 40 · Cam Şişe Su 60 · Soda 80 · San Pellegrino 120 · Red Bull 170 |
+| İçecek | Limonata 200 |
 
 Prices match the screens and [`menu/Ciao_Fiyat_Listesi.xlsx`](../menu/Ciao_Fiyat_Listesi.xlsx). When a price changes, the label is reprinted together with the new screen package.

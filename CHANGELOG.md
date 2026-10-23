@@ -1,5 +1,10 @@
 # Changelog
 
+## v5.1 — 23 Oct 2026
+
+- **Cookielaton** (chocolate cookie, 200 TL) added to the dessert board and labels. Blueberry is now the forest-fruit cake; Berry World the forest-fruit cheesecake.
+- Limonata label added (25 labels).
+
 ## v5 — 23 Oct 2026
 
 - Desserts renamed to the store's display names: Blush, Berry World, Blueberry, Italian Mood (new: tiramisu), Golden, Coconut, Chocolate Marble, Bunny House, Your Favorite, Black Movie, Choco Puff, Cloud 9. Prices updated; Ciao Selection desserts are Your Favorite, Golden and Black Movie; Ciao Duetto pairings follow.

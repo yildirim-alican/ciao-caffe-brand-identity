@@ -14,7 +14,7 @@ What each store receives, and how it runs.
 | Stills | `previews/*.png` — 1920×1080 | approvals, print, social media |
 | Drink panels | `previews/drinks/*.png` — 620×780 | product visuals on their own (social, print, web) |
 | **Price list** | `menu/Ciao_Fiyat_Listesi.xlsx` | head office and till (incl. Simpra setup sheet) |
-| **Price labels** | `labels/*.pdf` — A4 sheets with crop marks and single 80 × 50 mm pages; `labels/png/` 300 dpi | display case, counter and bar front |
+| **Price labels** | `labels/*.pdf` — A4 sheets with crop marks and single 80 × 50 mm pages; `labels/png/` 300 dpi | display case, counter and bar front (25 labels) |
 
 ## Running the screens
 

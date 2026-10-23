@@ -40,8 +40,8 @@ Every dessert has a short display name — the same name on the screen, on its c
 | Display name | Product | Price |
 |---|---|---|
 | **Blush** | strawberry cheesecake (*Çilekli Cheesecake*) | 270 TL |
-| **Berry World** | forest-fruit cake (*Orman Meyveli Pasta*) | 270 TL |
-| **Blueberry** | blueberry cheesecake (*Yaban Mersinli Cheesecake*) | 300 TL |
+| **Berry World** | forest-fruit cheesecake (*Orman Meyveli Cheesecake*) | 270 TL |
+| **Blueberry** | forest-fruit cake (*Orman Meyveli Pasta*) | 300 TL |
 | **Italian Mood** | tiramisu | 270 TL |
 | **Golden** ★ | Lotus cake | 320 TL |
 | **Coconut** | Coco Star cake | 240 TL |
@@ -50,6 +50,7 @@ Every dessert has a short display name — the same name on the screen, on its c
 | **Your Favorite** ★ | white chocolate brownie (*Beyaz Çikolatalı Brownie*) | 300 TL |
 | **Black Movie** ★ | mosaic cake (*Mozaik Kek*) | 200 TL |
 | **Choco Puff** | profiteroles (*Profiterol*) | 270 TL |
+| **Cookielaton** | chocolate cookie (*Çikolatalı Cookie*) | 200 TL |
 | **Cloud 9** | ice cream cup, 4 scoops (*Dondurma*) | 170 TL |
 | **Pulp Fetta** | slice of pizza — *fetta* = slice, a nod to Tarantino | coming soon |
 | **Il Padrino** | whole pizza — *The Godfather* in Italian | coming soon |
