@@ -5,3 +5,4 @@
 *.xlsx binary
 *.html text eol=lf
 *.md text eol=lf
+*.zip binary

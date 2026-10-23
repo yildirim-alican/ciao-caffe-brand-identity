@@ -2,6 +2,7 @@
 
 ## v4 — 23 Oct 2026
 
+- **Samsung MagicINFO delivery:** every board packaged as a MagicINFO web package (ZIP with `index.html` start page); setup, scheduling and two-screen sync documented in docs/11.
 - Pairings renamed **Ciao Duetto**. Desserts renamed so each name points at the product: Altın Lotus (Lotus), Çikolata Fabrikası (Nutella cookie cake), Copacabana (coconut Cocostar), Chocolat (chocolate cookie). Gaudí (mosaic cake) added to Ciao Selection.
 - **Blue intro** for Screen 2 (cold); red intro stays on Screen 1. The blue intro is also delivered on its own.
 - *Kahvenin yanına · Ciao Duetto* redesigned as a single card with icon + two-line pairings, placed above the footnote rule; more space under the dessert board title; cupcake ground line removed.

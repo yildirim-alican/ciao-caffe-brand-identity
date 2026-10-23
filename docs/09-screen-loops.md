@@ -41,4 +41,4 @@ Slide prices always match the list prices, so the featured price and the list ne
 
 ## Video fallback
 
-For TVs without a browser, [`video/`](../video) holds 60-second MP4 recordings of both loops (H.264, 1080p, 30 fps). The Screen 2 video is pre-rotated by 30 s, so starting both files together reproduces the live choreography. Set the TV to repeat.
+For displays that should play video instead of web content, [`video/`](../video) holds 60-second MP4 recordings of both loops (H.264, 1080p, 30 fps). The Screen 2 video is pre-rotated by 30 s, so starting both files together reproduces the live choreography. Set both to repeat; in MagicINFO, use synchronised playback for the pair (see [11 · Samsung MagicINFO](11-samsung-magicinfo.md)).

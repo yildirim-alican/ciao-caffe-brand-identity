@@ -34,7 +34,7 @@ A complete identity and menu system for a coffee franchise, designed as a system
 - **Motion that tells the product story.** A pitcher or *cezve* arrives and pours from its spout into the centre of the glass, the liquid rises with ripples, ice falls and floats, toppings land on the surface, steam rises — then it rests. Every animation is physically logical and nothing passes through anything else. See [docs/06-motion.md](docs/06-motion.md).
 - **A naming system.** Italian size names (UNICO · PICCOLO · GRANDE); the *Ciao Signature* drink line; *Ciao Selection* for barista picks; *Ciao Duetto* for dessert × coffee pairings; and a dessert list renamed after cinema, stage and art — Noir, Altın Lotus, Kuğu Gölü, Moulin Rouge, Roma Tatili… — with the original product name kept underneath for staff.
 - **One menu, everywhere.** Names, Ciao Selection marks and prices on the screens match the price list and the till list exactly.
-- **Built for real stores.** Each screen is a single offline file with fonts and logo inside; it scales to any display. TVs without a browser get a 60-second video of each loop.
+- **Built for Samsung MagicINFO.** Each screen ships as a ready-to-upload MagicINFO web package — one offline `index.html` with fonts and logo inside — scheduled 24/7 to its own device group. A 60-second MP4 of each loop is included as a video alternative. See [docs/11-samsung-magicinfo.md](docs/11-samsung-magicinfo.md).
 
 ## Inside
 
@@ -45,6 +45,7 @@ A complete identity and menu system for a coffee franchise, designed as a system
 │   ├── fonts/         Barlow Condensed · Kaushan Script · Permanent Marker (with licences)
 │   └── tokens/        colours, type scale, layout and motion values (JSON · CSS)
 ├── docs/              the design system, one topic per file (start at 01)
+├── magicinfo/         Samsung MagicINFO web packages (ZIP, index.html start page)
 ├── screens/           the menu boards as offline HTML — open in any browser
 ├── previews/          stills of every board and every product slide
 ├── video/             60-second loops of both screens (MP4, 1080p)
@@ -66,6 +67,7 @@ A complete identity and menu system for a coffee franchise, designed as a system
 | [08 · Menu & naming](docs/08-menu-system.md) | sizes, Ciao Signature, Ciao Selection, Ciao Duetto, dessert names |
 | [09 · Screen loops](docs/09-screen-loops.md) | two-screen choreography and timing |
 | [10 · In-store delivery](docs/10-delivery.md) | what the store receives and how it runs |
+| [11 · Samsung MagicINFO](docs/11-samsung-magicinfo.md) | uploading, scheduling and syncing the two displays |
 
 ## Gallery
 
@@ -96,11 +98,13 @@ Each featured drink pours, fills and is served in its own short animation; these
 
 ## View it
 
-Open [`screens/01_Ekran1_Sicak_Dongu.html`](screens/01_Ekran1_Sicak_Dongu.html) or [`screens/02_Ekran2_Soguk_Dongu.html`](screens/02_Ekran2_Soguk_Dongu.html) in a browser (download the file first — GitHub shows source, not the page). Double-click for full screen. Or watch the loops in [`video/`](video).
+- **In store:** upload [`magicinfo/web-packages/Ciao_Ekran1_Sicak.zip`](magicinfo/web-packages/Ciao_Ekran1_Sicak.zip) and [`Ciao_Ekran2_Soguk.zip`](magicinfo/web-packages/Ciao_Ekran2_Soguk.zip) to Samsung MagicINFO as web content (start page `index.html`) — [setup guide](docs/11-samsung-magicinfo.md).
+- **On a computer:** download [`screens/01_Ekran1_Sicak_Dongu.html`](screens/01_Ekran1_Sicak_Dongu.html) or [`screens/02_Ekran2_Soguk_Dongu.html`](screens/02_Ekran2_Soguk_Dongu.html) and open it in a browser (GitHub shows the source, not the page). Double-click for full screen.
+- **As video:** [`video/`](video).
 
 ## Türkçe özet
 
-Ciao Caffè için hazırlanmış kurumsal franchise marka kimliği ve dijital menü sistemi. İki ekran aynı anda çalışır: **Ekran 1** kırmızı intro + sıcaklar, **Ekran 2** mavi intro + soğuklar + tatlı. İkisi de 60 saniyelik döngüdür ve cihaz saatine göre birlikte ilerler. Ürün görsellerinde döküm, dolum, buz ve buhar animasyonları vardır. Boy isimleri UNICO · PICCOLO · GRANDE; imza içecekler *Ciao Signature*, barista seçimleri *Ciao Selection*, tatlı–kahve eşleşmeleri *Ciao Duetto* olarak adlandırıldı. Tatlılar sinema, sahne ve sanattan, ürünü doğrudan çağrıştıran isimler aldı. Marka sistemi, isimlendirme, illüstrasyon, animasyon ve ekran tasarımı **Alican Yıldırım**'a aittir.
+Ciao Caffè için hazırlanmış kurumsal franchise marka kimliği ve dijital menü sistemi. Ekranlar Samsung MagicINFO ile yönetilir; her ekran için hazır web paketi (ZIP, başlangıç sayfası `index.html`) ve alternatif MP4 video teslim edilir. İki ekran aynı anda çalışır: **Ekran 1** kırmızı intro + sıcaklar, **Ekran 2** mavi intro + soğuklar + tatlı. İkisi de 60 saniyelik döngüdür ve cihaz saatine göre birlikte ilerler. Ürün görsellerinde döküm, dolum, buz ve buhar animasyonları vardır. Boy isimleri UNICO · PICCOLO · GRANDE; imza içecekler *Ciao Signature*, barista seçimleri *Ciao Selection*, tatlı–kahve eşleşmeleri *Ciao Duetto* olarak adlandırıldı. Tatlılar sinema, sahne ve sanattan, ürünü doğrudan çağrıştıran isimler aldı. Marka sistemi, isimlendirme, illüstrasyon, animasyon ve ekran tasarımı **Alican Yıldırım**'a aittir.
 
 ## Credits
 

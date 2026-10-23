@@ -6,24 +6,20 @@ What each store receives, and how it runs.
 
 | Item | Format | Use |
 |---|---|---|
-| **Screen 1 — hot loop** | `screens/01_Ekran1_Sicak_Dongu.html` | left screen behind the counter |
-| **Screen 2 — cold + dessert loop** | `screens/02_Ekran2_Soguk_Dongu.html` | right screen behind the counter |
+| **Screen 1 — hot loop** | `magicinfo/web-packages/Ciao_Ekran1_Sicak.zip` (+ `screens/01_Ekran1_Sicak_Dongu.html`) | left display, via Samsung MagicINFO |
+| **Screen 2 — cold + dessert loop** | `magicinfo/web-packages/Ciao_Ekran2_Soguk.zip` (+ `screens/02_Ekran2_Soguk_Dongu.html`) | right display, via Samsung MagicINFO |
 | Alternative boards | `screens/03`–`07` | single-board layouts: hot/cold lists, desserts, image boards |
 | Intros | `screens/08_Intro_Sicak.html`, `screens/09_Intro_Soguk.html` | brand intro on its own (events, social) |
-| **Video fallback** | `video/*.mp4` — H.264, 1920×1080, 30 fps, 60 s | TVs without a browser (USB, repeat mode) |
+| **Video alternative** | `video/*.mp4` — H.264, 1920×1080, 30 fps, 60 s | displays that should play video content |
 | Stills | `previews/*.png` — 1920×1080 | approvals, print, social media |
 | Drink panels | `previews/drinks/*.png` — 620×780 | product visuals on their own (social, print, web) |
 | **Price list** | `menu/Ciao_Fiyat_Listesi.xlsx` | head office and till |
 
 ## Running the screens
 
-1. Copy the two loop files to each screen's player (smart TV browser, mini PC, or stick).
-2. Open the file and double-click for full screen.
-3. Make sure both devices set their time automatically — that is all the two screens need to stay in step.
+The displays are Samsung commercial screens managed with **Samsung MagicINFO**. Upload each ZIP as *Web Content* (start page `index.html`), schedule it 24 hours a day to its device group, and keep both displays on automatic time. Step-by-step instructions: [11 · Samsung MagicINFO](11-samsung-magicinfo.md).
 
-The files are fully offline: typefaces and logo are embedded, so nothing is loaded from the internet. The board scales itself to any resolution and aspect ratio, letterboxing when needed.
-
-If a TV cannot open web pages, play the two MP4 files on repeat instead; start them together and the choreography matches the live version.
+The packages are fully offline: typefaces and logo are embedded, so nothing is loaded from the internet. Each board scales itself to the display's resolution. Displays that should play video instead use the two MP4 files.
 
 ## Price list
 
