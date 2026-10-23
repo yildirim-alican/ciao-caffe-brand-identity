@@ -30,7 +30,7 @@ Why condensed? A menu board is a table seen from three metres away. A condensed 
 - Prices always use **tabular figures** (`font-variant-numeric: tabular-nums`) so columns align.
 - `TL` follows every price, smaller and lighter, so the number stays the hero.
 - Ingredient lists are separated with a middle dot `·`, never commas.
-- Dessert rows show two names: the **stage name** large, the **original product name** in the accent colour below (*Noir* / **Brownie**). Guests read the story, staff find the product.
+- Dessert rows show two names: the **display name** large, the **product name** in the accent colour below (*Your Favorite* / **Beyaz Çikolatalı Brownie**). Guests read the story, staff find the product.
 - Never set body copy in Kaushan or Permanent Marker.
 
 Font files and licences: [`brand/fonts/`](../brand/fonts).

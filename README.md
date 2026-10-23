@@ -23,7 +23,7 @@ A complete identity and menu system for a coffee franchise, designed as a system
 | | |
 |---|---|
 | **Client** | Ciao Caffè — [ciaocaffe.net](https://ciaocaffe.net) |
-| **Scope** | Brand identity system · logo usage · digital menu boards (2 × 1920×1080) · motion & illustration · signature drink naming · dessert naming · price list |
+| **Scope** | Brand identity system · logo usage · digital menu boards (2 × 1920×1080) · motion & illustration · signature drink naming · price list & POS (Simpra) setup · price labels |
 | **Design** | Alican Yıldırım — brand, UI/UX, illustration, motion, naming, front-end |
 | **Year** | 2026 |
 | **Status** | In use in store |
@@ -32,8 +32,8 @@ A complete identity and menu system for a coffee franchise, designed as a system
 
 - **Two screens that work as a pair.** Screen 1 loops *intro → hot drinks* (60 s, seven featured drinks). Screen 2 loops *intro → cold drinks → desserts* (60 s). Each opens with an intro in its own colour — red for hot, blue for cold. Both follow the device clock, so two independent screens stay in step without a server, and the dessert board never competes with itself.
 - **Motion that tells the product story.** A pitcher or *cezve* arrives and pours from its spout into the centre of the glass, the liquid rises with ripples, ice falls and floats, toppings land on the surface, steam rises — then it rests. Every animation is physically logical and nothing passes through anything else. See [docs/06-motion.md](docs/06-motion.md).
-- **A naming system.** Italian size names (UNICO · PICCOLO · GRANDE); the *Ciao Signature* drink line; *Ciao Selection* for barista picks; *Ciao Duetto* for dessert × coffee pairings; and a dessert list renamed after cinema, stage and art — Noir, Altın Lotus, Kuğu Gölü, Moulin Rouge, Roma Tatili… — with the original product name kept underneath for staff.
-- **One menu, everywhere.** Names, Ciao Selection marks and prices on the screens match the price list and the till list exactly.
+- **A naming system.** Italian size names (UNICO · PICCOLO · GRANDE); the *Ciao Signature* drink line; *Ciao Selection* for barista picks; *Ciao Duetto* for dessert × coffee pairings; and short display names for every dessert — Blush, Golden, Your Favorite, Cloud 9… — with the product name kept underneath for staff.
+- **One menu, everywhere.** Names, Ciao Selection marks and prices on the screens match the price list, the Simpra till setup and the 8 × 5 cm counter labels exactly.
 - **Built for Samsung MagicINFO.** Each screen ships as a ready-to-upload MagicINFO web package — one offline `index.html` with fonts and logo inside — scheduled 24/7 to its own device group. A 60-second MP4 of each loop is included as a video alternative. See [docs/11-samsung-magicinfo.md](docs/11-samsung-magicinfo.md).
 
 ## Inside
@@ -49,7 +49,8 @@ A complete identity and menu system for a coffee franchise, designed as a system
 ├── screens/           the menu boards as offline HTML — open in any browser
 ├── previews/          stills of every board and every product slide
 ├── video/             60-second loops of both screens (MP4, 1080p)
-├── menu/              price list (Excel) — per-board sheets, summary, till list
+├── menu/              price list (Excel) — per-board sheets, counter items, till list, Simpra setup
+├── labels/            8 × 5 cm price labels — print-ready PDF and PNG
 └── assets/readme/     images for this page
 ```
 
@@ -68,6 +69,7 @@ A complete identity and menu system for a coffee franchise, designed as a system
 | [09 · Screen loops](docs/09-screen-loops.md) | two-screen choreography and timing |
 | [10 · In-store delivery](docs/10-delivery.md) | what the store receives and how it runs |
 | [11 · Samsung MagicINFO](docs/11-samsung-magicinfo.md) | uploading, scheduling and syncing the two displays |
+| [12 · Price labels](docs/12-labels.md) | 8 × 5 cm counter and display-case labels, print files |
 
 ## Gallery
 
@@ -96,6 +98,10 @@ Each featured drink pours, fills and is served in its own short animation; these
 <tr><td width="25%" align="center"><img src="previews/drinks/cold-05-berry-hibiscus-cooler.png" width="100%" alt="Berry Hibiscus Cooler"><br><sub>Berry Hibiscus Cooler</sub></td><td width="25%"></td><td width="25%"></td><td width="25%"></td></tr>
 </table>
 
+### Price labels
+
+<p align="center"><img src="labels/Ciao_Etiketler_Onizleme.png" alt="8 × 5 cm price labels" width="100%"></p>
+
 ## View it
 
 - **In store:** upload [`magicinfo/web-packages/Ciao_Ekran1_Sicak.zip`](magicinfo/web-packages/Ciao_Ekran1_Sicak.zip) and [`Ciao_Ekran2_Soguk.zip`](magicinfo/web-packages/Ciao_Ekran2_Soguk.zip) to Samsung MagicINFO as web content (start page `index.html`) — [setup guide](docs/11-samsung-magicinfo.md).
@@ -104,11 +110,11 @@ Each featured drink pours, fills and is served in its own short animation; these
 
 ## Türkçe özet
 
-Ciao Caffè için hazırlanmış kurumsal franchise marka kimliği ve dijital menü sistemi. Ekranlar Samsung MagicINFO ile yönetilir; her ekran için hazır web paketi (ZIP, başlangıç sayfası `index.html`) ve alternatif MP4 video teslim edilir. İki ekran aynı anda çalışır: **Ekran 1** kırmızı intro + sıcaklar, **Ekran 2** mavi intro + soğuklar + tatlı. İkisi de 60 saniyelik döngüdür ve cihaz saatine göre birlikte ilerler. Ürün görsellerinde döküm, dolum, buz ve buhar animasyonları vardır. Boy isimleri UNICO · PICCOLO · GRANDE; imza içecekler *Ciao Signature*, barista seçimleri *Ciao Selection*, tatlı–kahve eşleşmeleri *Ciao Duetto* olarak adlandırıldı. Tatlılar sinema, sahne ve sanattan, ürünü doğrudan çağrıştıran isimler aldı. Marka sistemi, isimlendirme, illüstrasyon, animasyon ve ekran tasarımı **Alican Yıldırım**'a aittir.
+Ciao Caffè için hazırlanmış kurumsal franchise marka kimliği ve dijital menü sistemi. Ekranlar Samsung MagicINFO ile yönetilir; her ekran için hazır web paketi (ZIP, başlangıç sayfası `index.html`) ve alternatif MP4 video teslim edilir. İki ekran aynı anda çalışır: **Ekran 1** kırmızı intro + sıcaklar, **Ekran 2** mavi intro + soğuklar + tatlı. İkisi de 60 saniyelik döngüdür ve cihaz saatine göre birlikte ilerler. Ürün görsellerinde döküm, dolum, buz ve buhar animasyonları vardır. Boy isimleri UNICO · PICCOLO · GRANDE; imza içecekler *Ciao Signature*, barista seçimleri *Ciao Selection*, tatlı–kahve eşleşmeleri *Ciao Duetto* olarak adlandırıldı. Tatlılar kısa vitrin isimleriyle (Blush, Golden, Your Favorite…) ve altta ürün adıyla yer alır; vitrin ve kasa önü ürünleri için 8 × 5 cm fiyat etiketleri, Excel fiyat listesi ve Simpra kasa yapılandırması hazırlandı. Marka sistemi, isimlendirme, illüstrasyon, animasyon ve ekran tasarımı **Alican Yıldırım**'a aittir.
 
 ## Credits
 
-**Alican Yıldırım** — brand identity system, logo application, UI/UX and menu board design, illustration, motion design, signature drink and dessert naming, front-end.
+**Alican Yıldırım** — brand identity system, logo application, UI/UX and menu board design, illustration, motion design, signature drink naming, price list and price labels, front-end.
 [github.com/yildirim-alican](https://github.com/yildirim-alican)
 
 ## Licence

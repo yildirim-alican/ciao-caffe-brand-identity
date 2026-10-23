@@ -56,11 +56,11 @@ Stage name (28 px bold) · optional ★ · original name in gold + ingredients �
 
 ## Ciao Duetto
 
-One rounded card above the footnote rule: *Kahvenin yanına* in Kaushan with `CIAO DUETTO` below, then four pairings separated by hairlines. Each pairing shows a cake-slice icon, the dessert name, and `+ coffee` in gold underneath: *Noir + Espresso*, *Altın Lotus + Lotus Latte*, *Copacabana + Türk Kahvesi*, *Roma Tatili + Espresso*. Pairings bob gently in a staggered wave.
+One rounded card above the footnote rule: *Kahvenin yanına* in Kaushan with `CIAO DUETTO` below, then four pairings separated by hairlines. Each pairing shows a cake-slice icon, the dessert name, and `+ coffee` in gold underneath: *Your Favorite + Espresso*, *Golden + Lotus Latte*, *Coconut + Türk Kahvesi*, *Cloud 9 + Espresso*. Pairings bob gently in a staggered wave.
 
 ## Ticket badge
 
-A cinema ticket (dark body, dashed inner outline, two punched notches in the band colour) with a twinkling star: **SAHNEDE BUGÜN — Günün tatlıları vitrinde rol almaya hazır**. It ties the dessert board to its cinema/stage naming.
+A cinema ticket (dark body, dashed inner outline, two punched notches in the band colour) with a twinkling star: **SAHNEDE BUGÜN — Günün tatlıları vitrinde rol almaya hazır**. It gives the dessert board a playful "now showing" feel.
 
 ## Ciao Selection panel (dessert)
 

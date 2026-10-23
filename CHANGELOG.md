@@ -1,5 +1,13 @@
 # Changelog
 
+## v5 — 23 Oct 2026
+
+- Desserts renamed to the store's display names: Blush, Berry World, Blueberry, Italian Mood (new: tiramisu), Golden, Coconut, Chocolate Marble, Bunny House, Your Favorite, Black Movie, Choco Puff, Cloud 9. Prices updated; Ciao Selection desserts are Your Favorite, Golden and Black Movie; Ciao Duetto pairings follow.
+- New **8 × 5 cm price labels** for the display case, counter and bar front (23 labels) — A4 print sheets with crop marks, single-label PDF and 300 dpi PNGs.
+- Counter items (four mini cookies) added to the price list on a new *Kasa Önü* sheet; they are not shown on the screens.
+- New **Simpra Menü** sheet: one row per till item and size, grouped for setting up the Simpra POS.
+- Bar-front drinks: Cam Şişe Su 60 TL, Soda 80 TL, San Pellegrino 120 TL.
+
 ## v4.1 — 23 Oct 2026
 
 - Ferahlatıcılar prices updated: Cam Şişe Su 75 TL, Soda 85 TL, Limonata 200 TL. Premium Soda is now **San Pellegrino** (170 TL). Screens, MagicINFO packages, video, previews and price list updated together.

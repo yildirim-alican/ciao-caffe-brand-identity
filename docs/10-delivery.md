@@ -13,7 +13,8 @@ What each store receives, and how it runs.
 | **Video alternative** | `video/*.mp4` — H.264, 1920×1080, 30 fps, 60 s | displays that should play video content |
 | Stills | `previews/*.png` — 1920×1080 | approvals, print, social media |
 | Drink panels | `previews/drinks/*.png` — 620×780 | product visuals on their own (social, print, web) |
-| **Price list** | `menu/Ciao_Fiyat_Listesi.xlsx` | head office and till |
+| **Price list** | `menu/Ciao_Fiyat_Listesi.xlsx` | head office and till (incl. Simpra setup sheet) |
+| **Price labels** | `labels/*.pdf` — A4 sheets with crop marks and single 80 × 50 mm pages; `labels/png/` 300 dpi | display case, counter and bar front |
 
 ## Running the screens
 
@@ -27,7 +28,9 @@ The packages are fully offline: typefaces and logo are embedded, so nothing is l
 |---|---|
 | **Özet** | products, Ciao Selection count, price range and missing prices per board |
 | **Sıcaklar · Soğuklar · Tatlı & Atıştırmalık** | printable lists in the board colours, with the logo; prices are entered here (blue) |
+| **Kasa Önü** | counter items not on the screens (mini cookies) and the labelled bar-front drinks |
 | **Tüm Ürünler (POS)** | flat list for the till; prices follow the board sheets automatically (green) |
+| **Simpra Menü** | one row per till button: menu group, sub-group, POS name, portion (UNICO / PICCOLO / GRANDE / Tek), price, where it is sold, whether it has a label |
 
 Every sheet carries the logo top-left in a title band in the board colour and a narrow spacer column on the left. Prices that still need a value are highlighted in yellow; items not shown on screen (for example carton-cup Turkish tea) are noted.
 
