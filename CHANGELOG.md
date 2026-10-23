@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.1 — 23 Oct 2026
+
+- Ferahlatıcılar prices updated: Cam Şişe Su 75 TL, Soda 85 TL, Limonata 200 TL. Premium Soda is now **San Pellegrino** (170 TL). Screens, MagicINFO packages, video, previews and price list updated together.
+
 ## v4 — 23 Oct 2026
 
 - **Samsung MagicINFO delivery:** every board packaged as a MagicINFO web package (ZIP with `index.html` start page); setup, scheduling and two-screen sync documented in docs/11.
