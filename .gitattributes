@@ -1,0 +1,7 @@
+*.png binary
+*.gif binary
+*.mp4 binary
+*.woff2 binary
+*.xlsx binary
+*.html text eol=lf
+*.md text eol=lf

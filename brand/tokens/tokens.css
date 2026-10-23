@@ -1,0 +1,41 @@
+/* Ciao Caffè design tokens — menu board system. © 2026 Alican Yıldırım. See LICENSE. */
+:root {
+  /* neutrals */
+  --ciao-cream: #FFF8F1;
+  --ciao-ink:   #1A1210;
+  --ciao-gold:  #E8C07A;
+
+  /* hot (default) */
+  --ciao-band:      #F54021;
+  --ciao-brand:     #F54021;
+  --ciao-bg:        #15110F;
+  --ciao-line:      #3A2D25;
+  --ciao-mute:      #ADA196;
+  --ciao-card:      #211A16;
+  --ciao-card-line: #4A3329;
+
+  /* type */
+  --ciao-font-display: 'Kaushan Script', cursive;
+  --ciao-font-ui:      'Barlow Condensed', sans-serif;
+  --ciao-font-sticker: 'Permanent Marker', cursive;
+
+  /* motion */
+  --ciao-ease-fill: cubic-bezier(.3, .55, .35, 1);
+  --ciao-ease-pop:  cubic-bezier(.34, 1.56, .64, 1);
+  --ciao-dur-slide: 600ms;
+  --ciao-dur-scene: 700ms;
+  --ciao-dur-fill:  3300ms;
+}
+
+[data-theme="cold"] {
+  --ciao-band: #1670B5; --ciao-brand: #3DA3EC; --ciao-bg: #101315;
+  --ciao-line: #2C3238; --ciao-mute: #A7ADB2; --ciao-card: #1A1E22; --ciao-card-line: #333B42;
+}
+
+[data-theme="dessert"] {
+  --ciao-band: #7A3E26; --ciao-brand: #F5A35C; --ciao-bg: #15110F;
+  --ciao-line: #3A2D25; --ciao-mute: #ADA196; --ciao-card: #211A16; --ciao-card-line: #4A3329;
+}
+
+/* the brand star — use as mask or inline SVG path
+   M12 2.5l2.8 6.1 6.6.7-5 4.5 1.4 6.6L12 17l-5.8 3.4 1.4-6.6-5-4.5 6.6-.7z */
